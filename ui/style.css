@@ -3,7 +3,9 @@ body {
     background-color: lightgrey;
     margin-top: 75px;
 }
-
+.logo {
+    text-align: right;
+}
 .center {
     text-align: center;
 }
