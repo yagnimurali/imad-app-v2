@@ -4,7 +4,7 @@ body {
     margin-top: 75px;
 }
 .logo {
-    text-align: justify;
+    text-align: left;
 }
 .center {
     text-align: center;
@@ -25,6 +25,6 @@ body {
     height: 400px;
 }
 .img-medi {
-    height: 40px;
+    height: 100px;
 }
 
