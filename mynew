@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+        body{
+            background-color:rgb(20, 224, 210);
+        }
+            h2{
+                background-color:green;
+            }
+            #clg
+            {
+                color:rgb(26, 15, 247);
+            }
+            .mal{
+                color:rgb(26, 15, 247);
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h1>Travel to vijayawada</h1>
+        <p>this a simple page which gives some places in vijayawada</p>
+        <h2>colleges</h2>
+        <ul id="clg">
+          <img src="https://www.kasandbox.org/programming-images/animals/cheetah.png" width="300">
+            <li>V R Siddhartha</li>
+            
+            <li>PVP Siddhartha</li>
+        </ul>
+        <h2>malls</h2>
+        <img src="https://www.kasandbox.org/programming-images/food/pasta.png" width="300">
+        <ul class="mal">
+            <li>PVP</li>
+            
+            <li>PVR</li>
+        </ul>
+        <h2>temples</h2>
+        <ul class="mal">
+        <img src="https://www.kasandbox.org/programming-images/landscapes/mountains-and-lake.png" width="300">
+            <li> Durga</li>
+            
+            <li>Sai</li>
+        </ul>
+        <p>chosse the the vijayawada</p>
+    </body>
+</html>
