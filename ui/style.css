@@ -55,6 +55,7 @@ body{
                 z-index:2;
             }
             #home{
+                text-align:left;
                 left:10px;
             }
             #log{
