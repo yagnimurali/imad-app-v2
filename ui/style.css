@@ -65,9 +65,7 @@ body{
                 left:800px;
             }
             #sign{
-                position:absolute;
-                top:0px;
-                left:1500px;
+                text-align:right;
                 font-weight:bold;
             }
             
