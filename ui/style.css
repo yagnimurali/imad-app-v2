@@ -57,12 +57,12 @@ body{
             
             #home{
                 text-align:left;
+                font-weight:bold;
                 left:10px;
             }
             #log{
-                position:absolute;
-                top:0px;
-                left:800px;
+            text-align:center;
+            font-weight:bold;
             }
             #sign{
                 text-align:right;
