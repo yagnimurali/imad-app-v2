@@ -24,7 +24,9 @@ app.listen(8080, function () {
 });*/
 
 // counter code dark js file baby
-var button = document.getElementById("counter");
+
+
+/*var button = document.getElementById("counter");
 
 button.onclick = function() {
     
@@ -82,5 +84,5 @@ submit.onclick = function() {
     var name = nameInput.value;
     request.open('GET', 'http://darkfist.imad.hasura-app.io/submit-name?name=' + name, true);
     request.send(null);
-};
+};*/
 //inyha varaku vadide
