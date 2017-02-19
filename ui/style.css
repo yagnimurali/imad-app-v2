@@ -60,12 +60,12 @@ body{
             #log{
                 position:absolute;
                 top:0px;
-                left:600px;
+                left:800px;
             }
             #sign{
                 position:absolute;
                 top:0px;
-                left:658px;
+                left:1000px;
                 font-weight:bold;
             }
             
