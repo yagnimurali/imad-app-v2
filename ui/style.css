@@ -3,6 +3,14 @@ body {
     background-color: lightgrey;
     margin-top: 1px;
 }
+.header{
+                height:54px;
+                width:100%;
+                background-color:green;
+                position:fixed;
+                color:white;
+                z-index:2;
+            }
 .logo {
     text-align: left;
 }
@@ -46,14 +54,7 @@ body{
             }
 
 
-            .header{
-                height:54px;
-                width:100%;
-                background-color:green;
-                position:fixed;
-                color:white;
-                z-index:2;
-            }
+            
             #home{
                 text-align:left;
                 left:10px;
