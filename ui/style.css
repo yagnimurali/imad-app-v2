@@ -45,3 +45,28 @@ body{
                 color:rgb(26, 15, 247);
             }
 
+
+            .header{
+                height:54px;
+                width:100%;
+                background-color:green;
+                position:fixed;
+                color:white;
+                z-index:2;
+            }
+            #home{
+                margin-left:10px;
+            }
+            #log{
+                position:absolute;
+                top:0px;
+                left:600px;
+            }
+            #sign{
+                position:absolute;
+                top:0px;
+                left:658px;
+                font-weight:bold;
+            }
+            
+    
