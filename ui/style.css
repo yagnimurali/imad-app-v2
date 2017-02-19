@@ -55,7 +55,7 @@ body{
                 z-index:2;
             }
             #home{
-                margin-left:1px;
+                left:10px;
             }
             #log{
                 position:absolute;
