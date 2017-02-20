@@ -177,4 +177,6 @@ color:#00ADAD;
     width:600px;
     position:absolute;
     z-index:1;
+    top:1px;
+    bottom:1px;
 }
