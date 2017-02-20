@@ -171,7 +171,10 @@ color:#00ADAD;
   margin-bottom: 10px;
 }
 .back{
+    position:absolute;
     z-index:2;
+    top:1px;
+    bottom:1px;
 }
 .show{
     width:600px;
