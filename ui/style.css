@@ -170,16 +170,3 @@ color:#00ADAD;
   margin-top: 9px;
   margin-bottom: 10px;
 }
-.back{
-    position:absolute;
-    z-index:2;
-    top:1px;
-    bottom:1px;
-}
-.show{
-    width:600px;
-    position:absolute;
-    z-index:1;
-    top:1px;
-    bottom:1px;
-}
