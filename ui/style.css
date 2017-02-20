@@ -174,5 +174,7 @@ color:#00ADAD;
     z-index:2;
 }
 .show{
+    width:600px;
+    position:absolute;
     z-index:1;
 }
