@@ -1,9 +1,9 @@
 console.log('Loaded!');
 alert("Welcome! Thank you for visiting my website...!");
-var likes=0;
-var like = document.getElementById("like");
-like.onClick= function() {
-    likes=likes+1;
+var counter=0;
+var button = document.getElementById("like");
+button.onClick= function() {
+    counter=counter+1;
     var span = document.getElementById("value");
-    span.innerHTML=likes.toString();
+    span.innerHTML=counter.toString();
     };
