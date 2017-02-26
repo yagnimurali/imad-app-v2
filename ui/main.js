@@ -1,2 +1,2 @@
 console.log('Loaded!');
-alert("Thanks for visting my website");
+alert("Welcome! Thank you for visiting my website...!");
