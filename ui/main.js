@@ -1,5 +1,5 @@
 console.log('Loaded!');
-alert("Welcome! Thank you for visiting my website...!");
+//alert("Welcome! Thank you for visiting my website...!");
 
 var button = document.getElementById('like');
 var counter=0;
