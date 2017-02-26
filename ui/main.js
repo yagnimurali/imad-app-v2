@@ -3,8 +3,9 @@ console.log('Loaded!');
 
 var button = document.getElementById('like');
 var counter=0;
-button.onClick = function() {
+button.onClick = function(){
+    
     counter=counter+1;
     var span = document.getElementById('value');
-    span.innerHTML = 'fun';
+    span.innerHTML = counter.toString();
     };
