@@ -5,5 +5,5 @@ var button = document.getElementById('like');
 button.onClick = function() {
     counter=counter+1;
     var span = document.getElementById('value');
-    span.innerHTML=counter.toString();
+    span.innerHTML = 'fun';
     };
