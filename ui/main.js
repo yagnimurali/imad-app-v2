@@ -5,5 +5,5 @@ var like = document.getElementById("like");
 like.onClick= function() {
     likes=likes+1;
     var span = document.getElementById("value");
-    span.innerHTML=likes;
+    span.innerHTML=likes.toString();
     };
