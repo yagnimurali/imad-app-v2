@@ -20,6 +20,10 @@ app.get('/article-three1', function (req,res){
     res.sendFile(path.join(__dirname, 'Article-three1.html'));
 });
 
+app.get('/article-three', function (req,res){
+    res.sendFile(path.join(__dirname, 'Article-three.html'));
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
