@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <title>Home | Yagni Murali</title>
+        <link href="/ui/style.css" rel="stylesheet" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+    </head>
+    <body>
+        <div>
+            <div class="header">
+                <h3><a href="http://yagnimurali.imad.hasura-app.io/">Home</a></h3>
+                <h3><a href="https://www.facebook.com/">Facebook</a></h3>
+                <h3><a href="https://twitter.com/login">Twitter</a></h3>
+                <h3><a href="https://accounts.google.com/ServiceLogin?">Gmail</a></h3>
+            </div>
+         <img id="leftbar" src="https://github.com/yagnimurali/imad-app-v2/blob/master/murali%20pro%20pic.jpg?raw=true" alt="photo of yagnimurali">
+         <p style="font-weight: bold; text-align: center; font-size: 16px;">This is my web app i was running this for learning purpose </p>
+         This is the article one
+         <div class="footer">
+                <p><strong>Contact me for more info at yagni99@gmail.com.</strong></p>
+          </div>
+        </div>
+        <script src="ui/main.js"></script>
+    </body>
+</html>
