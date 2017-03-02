@@ -6,6 +6,14 @@
         <title>Home | Yagni Murali</title>
         <link href="/ui/style.css" rel="stylesheet" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+        <script type="text/javascript">
+            var counter;  
+            function msg()
+              {
+                counter++;
+                document.write(counter);
+              }  
+        </script>
     </head>
     <body>
         <div>
@@ -35,7 +43,7 @@
                 </ul>
             </div>
             <div>
-            If you love my webApp click this <button id="counter">Like</button> Button. People loving my webApp are <span id="count">10</span>...!
+            If you love my webApp click this <input type="button" value="click" onclick="msg()"/> Button. People loving my webApp are <span id="count">10</span>...!
             </div>
             <div class="footer">
                 <p><strong>Contact me for more info at yagni99@gmail.com.</strong></p>
