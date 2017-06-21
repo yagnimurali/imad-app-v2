@@ -24,3 +24,17 @@ var button = document.getElementById('coun');
 request.open('GET','http://yagnimurali.imad.hasura-app.io/counter',true);
 request.send(null);
 };
+
+var nameinput=document.getElementById('name');
+var names=nameinput.value;
+var submit = document.getElementById('submit');
+var namesd=['name1','name2','name3','name4'];
+var list='';
+submit.onclick=function(){
+    for(var i=0;i<=namesd.length;i++)
+    {
+        list += '<li>'+ names[i] +'</li>';
+    }
+ var nam=document.getElementById('nameslist');
+ nam.innerHTML=list;
+};
