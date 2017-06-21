@@ -9,7 +9,7 @@ var counter =0;
 
 var request = new XMLHttpRequest();
 request.onreadystatechange=function(){
-    if(reauest.readystate === XMLHttpRequest.DONE)
+    if(reauest.readyState === XMLHttpRequest.DONE)
     {
         if(reauest.status === 200)
         {
