@@ -10,9 +10,9 @@ var button = document.getElementById('coun');
         var request = new XMLHttpRequest();
         request.onreadystatechange=function()
         {
-         if(reauest.readyState === XMLHttpRequest.DONE)
+         if(request.readyState === XMLHttpRequest.DONE)
          {
-             if(reauest.status === 200)
+             if(request.status === 200)
                 {
                     var counter=request.responseText;
                      var value=document.getElementById('counterv');
