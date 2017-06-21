@@ -5,7 +5,7 @@ element.innerHTML = "just a check";
 
 
 var button = document.getElementById('coun');
- button.onclick= function()
+ button.onclick = function()
      {
         var request = new XMLHttpRequest();
         request.onreadystatechange=function()
@@ -20,6 +20,7 @@ var button = document.getElementById('coun');
                 }
          }
         };
-    };
+    
 request.open('GET','http://yagnimurali.imad.hasura-app.io/counter',true);
 request.send(null);
+};
