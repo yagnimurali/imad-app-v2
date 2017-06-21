@@ -10,4 +10,4 @@ button.onClick = function (){
     value.innerHTML=counter.toString();
     
 };*/
-button.onClick = function (){button.innerHTML='deko';};
+button.onClick = function (){button.innerHTML="deko";};
