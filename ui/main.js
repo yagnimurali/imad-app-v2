@@ -4,5 +4,5 @@ var element = document.getElementById("sodi");
 element.innerHTML = "just a check";
 var img = document.getElementById('leftbar');
 img.onClick= function (){
-    img.style.float; right 
+    img.style.marginLeft='100px';
 };
