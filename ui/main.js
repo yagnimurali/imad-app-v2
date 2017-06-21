@@ -3,11 +3,11 @@ console.log('Loaded!');
 var element = document.getElementById("sodi");
 element.innerHTML = "just a check";
 var button = document.getElementById('coun');
-/*var counter =0;
-button.onClick = function (){
+var counter =0;
+button.onclick = function (){
     counter=counter+1;
     var value=document.getElementById('counterv');
     value.innerHTML=counter.toString();
     
-};*/
-button.onClick = function (){button.innerHTML="deko";};
+};
+
