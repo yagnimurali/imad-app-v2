@@ -35,7 +35,7 @@ request.send(null);
 
 //submit
 
-var nameInput = document.getElementById('name');
+var nameInput = document.getElementById('textbox');
 var name = nameInput.value;
 var submit = document.getElementById('submit_btn');
 submit.onclick=function(){
