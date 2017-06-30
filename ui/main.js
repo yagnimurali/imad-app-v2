@@ -18,13 +18,6 @@ var button = document.getElementById('coun');
                      var value=document.getElementById('counterv');
                      value.innerHTML=counter.toString();
                      
-             var names = ['name1','name2','name3','name4'];
-            var list = '';
-            for (var i =0; i<names.length; i++){
-                list += '<li>' + names[i] + '</li>';
-                }
-                var ul=document.getElementById('namelist');
-                ul.innerHTML = list;
                 }
          }
         };
@@ -39,5 +32,13 @@ var nameInput = document.getElementById('textbox');
 var name = nameInput.value;
 var submit = document.getElementById('submit_btn');
 submit.onclick=function(){
- 
+    
+     var names = ['name1','name2','name3','name4'];
+            var list = '';
+            for (var i =0; i<names.length; i++){
+                list += '<li>' + names[i] + '</li>';
+                }
+                var ul=document.getElementById('namelist');
+                ul.innerHTML = list;
+                
 };
