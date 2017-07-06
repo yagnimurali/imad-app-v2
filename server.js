@@ -19,6 +19,13 @@ app.get('/counter', function (req,res){
     res.send(counter.toString());
 });
 
+//submit box
+var names = [];
+app.get('/submit_name/:name', function (req,res){
+    names = name.push(name);
+    res.send(names);
+});
+
 app.get('/article-two', function (req,res){
   res.sendFile(path.join(__dirname, 'Article-two.html'));
 });
