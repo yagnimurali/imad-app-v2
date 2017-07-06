@@ -22,7 +22,8 @@ app.get('/counter', function (req,res){
 //submit box
 var names = [];
 app.get('/submit_name/:name', function (req,res){
-    names = name.push(name);
+    var name = req.params.name;
+    names.push(name);
     res.send(names);
 });
 
