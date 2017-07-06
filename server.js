@@ -24,7 +24,7 @@ var names = [];
 app.get('/submit_name/:name', function (req,res){
     var name = req.params.name;
     names.push(name);
-    res.send(JSON.Strigfy(names));
+    res.send(JSON.strigify(names));
 });
 
 app.get('/article-two', function (req,res){
